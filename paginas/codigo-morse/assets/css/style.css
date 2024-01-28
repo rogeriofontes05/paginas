@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:wght@400;500;600;700&display=swap");
+/* :root {
+  --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --bs-gradient: linear-gradient(180deg,rgba(255,255,255,.15),rgba(255,255,255,0));
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 1024px;
+  margin: 0 auto;
+}
+main {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main h1 {
+  color: #505050;
+  font-size: 34px;
+  font-weight: 700;
+  border: 1px solid red;
+}
+
+main h2 {
+  font-weight: 500;
+  margin-top: 20px;
+  color: #777;
+}
+
+p {
+  font-family: var(--bs-font-sans-serif);
+  font-size: 15px;
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  color: #444;
+  margin: 10px 5px 50px 5px;
+  text-indent: 20px;
+}
+
+.lista {
+  margin-left: 50px;
+  font-size: 15px;
+}
+.lista .strong2 {
+  color: #555;
+}
+.lista .em {
+  font-style: italic;
+}
+
+img {
+  width: 90%;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+figure .area-img-destaque-conteudo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+figure .area-img-destaque-conteudo figcaption {
+  color: #888;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.texto-completo .topicos-deste-artigo {
+  color: #0e4b9b;
+  font-size: 14px;
+}
+.texto-completo .topicos-deste-artigo li a {
+  text-decoration: none;
+  color: inherit;
+}
