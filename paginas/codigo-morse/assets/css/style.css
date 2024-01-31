@@ -9,11 +9,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  width: 1024px;
-  margin: 0 auto;
-}
 main {
+  margin: 0 auto;
+  width: 1024px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -79,4 +77,17 @@ figure .area-img-destaque-conteudo figcaption {
 .texto-completo .topicos-deste-artigo li a {
   text-decoration: none;
   color: inherit;
+}
+table {
+  border-collapse: collapse; /* CSS2 */
+  background: #FFFFF0;
+}
+
+table.comBordaSimples td {
+  border: 1px solid black;
+}
+
+table.comBordaSimples th {
+  border: 1px solid black;
+  background: #F0FFF0;
 }
