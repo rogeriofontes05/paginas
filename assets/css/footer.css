@@ -1,0 +1,8 @@
+footer{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: #999;
+    margin-right: 20px;
+}
